@@ -10,7 +10,11 @@ const OurPartners = () => {
 
   return (
     <section className="bg-white mt-4 flex flex-row items-center gap-4 py-4 px-6 md:px-12 rounded-2xl w-[95%] mx-auto">
-      <p className="text-sm md:text-base text-[#00373E] font-medium">
+      <p
+        className="text-sm md:text-base text-[#00373E] font-medium"
+        data-aos="fade-up-left"
+        data-aos-duration="1500"
+      >
         Our Partners
       </p>
       <div className="flex flex-row space-x-4 md:space-x-8">
@@ -20,6 +24,8 @@ const OurPartners = () => {
             src={el.imageUrl}
             className="w-16 md:w-24"
             alt="Partner logo"
+            data-aos="fade-up-right"
+            data-aos-duration="1500"
           />
         ))}
       </div>

@@ -4,7 +4,11 @@ import OutlineButton from "./OutlineButton";
 
 const Services = () => {
   return (
-    <section className="flex flex-col bg-[#F7F6F4] py-8 md:py-16 space-y-3 items-center mt-16">
+    <section id="services"
+      className="flex flex-col bg-[#F7F6F4] py-8 md:py-16 space-y-3 items-center mt-16"
+      data-aos="fade-up"
+      data-aos-duration="2000"
+    >
       <p className="text-xs text-[#00373E]">SERVICES</p>
       <p className="text-[#00373E] text-2xl md:text-3xl text-center font-bold">
         Your Path to Well-being
@@ -16,7 +20,11 @@ const Services = () => {
       {/* Services Row */}
       <div className="grid md:grid-cols-2 gap-4 md:gap-8 mt-4 md:mt-8 mx-[20px] md:mx-0">
         {/* 1 */}
-        <div className="flex bg-[#F9E6D0] items-center py-8 px-4 md:p-6 rounded-3xl">
+        <div
+          className="flex bg-[#F9E6D0] items-center py-8 px-4 md:p-6 rounded-3xl"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+        >
           <div className="flex flex-col space-y-5">
             <p className="text-[#00373E] text-[24px] font-bold max-w-xs">
               Mindfulness & Meditation
@@ -36,7 +44,11 @@ const Services = () => {
         </div>
 
         {/* 2 */}
-        <div className="flex bg-white items-center py-10 px-4 md:p-6 rounded-3xl">
+        <div
+          className="flex bg-white items-center py-10 px-4 md:p-6 rounded-3xl"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
           <div className="flex flex-col space-y-5">
             <p className="text-[#00373E] text-[24px] font-bold max-w-xs">
               One-on-One Therapy
@@ -57,7 +69,8 @@ const Services = () => {
             backgroundPosition: "bottom right",
             backgroundRepeat: "no-repeat",
           }}
-        >
+          data-aos="fade-up"
+          data-aos-duration="1500">
           <div className="flex flex-col space-y-6 py-10 px-6">
             <p className="text-[#00373E] text-[24px] font-bold max-w-xs">
               Wellness Coaching

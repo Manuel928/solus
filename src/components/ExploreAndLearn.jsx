@@ -2,28 +2,12 @@ import React from "react";
 import ExploreBtn from "./ExploreBtn";
 
 const ExploreAndLearn = () => {
-  const resources = [
-    {
-      title: "Articles & Guides",
-      description:
-        "Practical tips on stress management, mindfulness, and emotional resilience.",
-      buttonText: "Explore",
-    },
-    {
-      title: "Meditation & Relaxation",
-      description:
-        "Audio sessions for guided meditation and deep breathing exercises.",
-      buttonText: "Explore",
-    },
-    {
-      title: "Webinars & Workshops",
-      description:
-        "Live and recorded sessions with mental health professionals.",
-      buttonText: "Explore",
-    },
-  ];
   return (
-    <section className="flex flex-col bg-[#F7F6F4] py-8 md:py-16 space-y-3 items-center mt-16">
+    <section id="explore&learn"
+      className="flex flex-col bg-[#F7F6F4] py-8 md:py-16 space-y-3 items-center mt-16"
+      data-aos="fade-up-right"
+      data-aos-duration="1500"
+    >
       <p className="text-xs text-[#00373E]">EXPLORE & LEARN</p>
       <p className="text-[#00373E] text-2xl md:text-3xl text-center font-bold">
         Resources for Your Well-being
@@ -33,7 +17,11 @@ const ExploreAndLearn = () => {
         mental health.
       </p>
       <div className="flex flex-col mt-8 space-y-3 md:space-y-0 md:space-x-5 md:flex-row">
-        <div className="shadow-2xl flex flex-col justify-center items-center bg-white py-16 space-y-5 px-8 rounded-3xl">
+        <div
+          className="shadow-2xl flex flex-col justify-center items-center bg-white py-16 space-y-5 px-8 rounded-3xl"
+          data-aos="fade-up-right"
+          data-aos-duration="1500"
+        >
           <p className="text-[#00373E] text-[24px] font-bold max-w-xs">
             Articles & Guides
           </p>
@@ -50,7 +38,11 @@ const ExploreAndLearn = () => {
             </a>
           </div>
         </div>
-        <div className="shadow-2xl flex flex-col justify-center items-center bg-white py-16 space-y-5 px-8 rounded-3xl">
+        <div
+          className="shadow-2xl flex flex-col justify-center items-center bg-white py-16 space-y-5 px-8 rounded-3xl"
+          data-aos="fade-up-right"
+          data-aos-duration="1500"
+        >
           <p className="text-[#00373E] text-[24px] font-bold max-w-xs">
             Meditation & Relaxation
           </p>
@@ -66,7 +58,11 @@ const ExploreAndLearn = () => {
             </a>
           </div>
         </div>
-        <div className="shadow-2xl flex flex-col justify-center items-center bg-white py-16 space-y-5 px-8 rounded-3xl">
+        <div
+          className="shadow-2xl flex flex-col justify-center items-center bg-white py-16 space-y-5 px-8 rounded-3xl"
+          data-aos="fade-up-right"
+          data-aos-duration="1500"
+        >
           <p className="text-[#00373E] text-[24px] font-bold max-w-xs">
             Webinars & Workshops
           </p>

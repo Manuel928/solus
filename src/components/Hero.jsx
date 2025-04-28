@@ -4,14 +4,16 @@ import Button from "./Button";
 const Hero = () => {
   return (
     <div
-      className="bg-[#F9E6D0] h-62 md:h-74 flex flex-col justify-center items-center pt-4 mx-[10px] md:mx-[100px] rounded-2xl rounded-bl-2xl md:rounded-4xl"
+      className="bg-[#F9E6D0] h-62 md:h-74 flex flex-col justify-center items-center pt-4 mx-[10px] md:mx-[100px] rounded-2xl rounded-bl-2xl md:rounded-4xl relative"
       style={{
         backgroundImage:
           "url('/images/Illustration-2.svg'), url('/images/Illustration-1.svg')",
-        backgroundSize: "contain",
         backgroundPosition: "bottom left, bottom right",
         backgroundRepeat: "no-repeat",
+        backgroundSize: "100px auto, 100px auto",
       }}
+      data-aos="fade-up"
+      data-aos-duration="1000"
     >
       <div className="flex flex-col justify-center items-center space-y-[15px]">
         <div className="flex flex-col space-y-[8px] max-w-[250px] items-center md:max-w-md md:space-y-[15px]">
@@ -24,7 +26,6 @@ const Hero = () => {
           </p>
         </div>
 
-        {/* Button */}
         <Button text="Get Started" />
       </div>
     </div>
