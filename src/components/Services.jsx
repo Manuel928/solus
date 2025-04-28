@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <section className="flex flex-col bg-[#F7F6F4] py-8 md:py-16 space-y-3 items-center mt-16">
       <p className="text-xs text-[#00373E]">SERVICES</p>
-      <p className="text-[#00373E] text-2xl md:text-3xl text-center font-bold max-w-[200px]">
+      <p className="text-[#00373E] text-2xl md:text-3xl text-center font-bold">
         Your Path to Well-being
       </p>
       <p className="text-[#00373E] text-center text-xs md:text-[14px] md:max-w-[300px] max-w-[250px]">
