@@ -14,11 +14,11 @@ const Hero = () => {
       }}
     >
       <div className="flex flex-col justify-center items-center space-y-[15px]">
-        <div className="flex flex-col space-y-[8px] max-w-xs md:max-w-md md:space-y-[15px]">
+        <div className="flex flex-col space-y-[8px] max-w-[250px] items-center md:max-w-md md:space-y-[15px]">
           <h2 className="text-2xl text-center md:text-5xl font-bold text-[#00373E] max-w-md">
             Support for Your Mental Well-being
           </h2>
-          <p className="text-[#00373E] text-xs md:text-[18px] max-w-md text-center">
+          <p className="text-[#00373E] text-xs text-center md:text-[18px] max-w-[200px] md:max-w-sm">
             Connect with licensed therapists, counselors, and wellness coaches
             to support your journey.
           </p>
