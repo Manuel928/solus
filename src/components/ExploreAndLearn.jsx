@@ -1,5 +1,4 @@
 import React from "react";
-import ExploreBtn from "./ExploreBtn";
 
 const ExploreAndLearn = () => {
   return (
@@ -16,9 +15,9 @@ const ExploreAndLearn = () => {
         Explore expert insights, self-care guides, and tools to support your
         mental health.
       </p>
-      <div className="flex flex-col mt-8 space-y-3 md:space-y-0 md:space-x-5 md:flex-row">
+      <div className="flex flex-col mt-8 space-y-3 justify-center items-center md:space-y-0 md:space-x-5 md:flex-row">
         <div
-          className="shadow-2xl flex flex-col justify-center items-center bg-white py-16 space-y-5 px-8 rounded-3xl"
+          className="shadow-2xl flex flex-col justify-center items-center bg-white py-16 space-y-5 px-8 w-[90%] md:w-full rounded-3xl"
           data-aos="fade-up-right"
           data-aos-duration="1500"
         >
@@ -39,7 +38,7 @@ const ExploreAndLearn = () => {
           </div>
         </div>
         <div
-          className="shadow-2xl flex flex-col justify-center items-center bg-white py-16 space-y-5 px-8 rounded-3xl"
+          className="shadow-2xl flex flex-col justify-center items-center bg-white py-16 space-y-5 px-8 w-[90%] md:w-full rounded-3xl"
           data-aos="fade-up-right"
           data-aos-duration="1500"
         >
@@ -59,7 +58,7 @@ const ExploreAndLearn = () => {
           </div>
         </div>
         <div
-          className="shadow-2xl flex flex-col justify-center items-center bg-white py-16 space-y-5 px-8 rounded-3xl"
+          className="shadow-2xl flex flex-col justify-center items-center bg-white py-16 space-y-5 px-8 w-[90%] md:w-full rounded-3xl"
           data-aos="fade-up-right"
           data-aos-duration="1500"
         >
