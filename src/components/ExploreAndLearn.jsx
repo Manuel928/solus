@@ -23,7 +23,7 @@ const ExploreAndLearn = () => {
     },
   ];
   return (
-    <section className="flex flex-col py-8 md:py-16 space-y-3 items-center mt-16">
+    <section className="flex flex-col bg-[#F7F6F4] py-8 md:py-16 space-y-3 items-center mt-16">
       <p className="text-xs text-[#00373E]">EXPLORE & LEARN</p>
       <p className="text-[#00373E] text-2xl md:text-3xl text-center font-bold">
         Resources for Your Well-being

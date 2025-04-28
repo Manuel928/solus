@@ -9,7 +9,7 @@ const OurPartners = () => {
   ];
 
   return (
-    <section className="bg-white mt-4 flex flex-row items-center gap-8 py-4 px-6 md:px-12 rounded-2xl w-[95%] mx-auto">
+    <section className="bg-white mt-4 flex flex-row items-center gap-4 py-4 px-6 md:px-12 rounded-2xl w-[95%] mx-auto">
       <p className="text-sm md:text-base text-[#00373E] font-medium">
         Our Partners
       </p>
