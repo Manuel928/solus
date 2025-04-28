@@ -21,7 +21,7 @@ const HowItWorks = () => {
 
       {/* Iluustration */}
       <div className="bg-[#00373E] rounded-4xl pt-4 px-4">
-        <img src="./images/illustration_3.svg" className="w-full md:w-72" alt="" srcset="" />
+        <img src="./images/Illustration-3.svg" className="w-full md:w-72" alt="" srcset="" />
       </div>
     </section>
   );

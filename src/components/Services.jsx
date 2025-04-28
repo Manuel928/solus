@@ -26,7 +26,7 @@ const Services = () => {
           </div>
           <div>
             <img
-              src="./images/illustration_10.svg"
+              src="./images/Illustration-10.svg"
               className="w-40"
               alt=""
               srcset=""
