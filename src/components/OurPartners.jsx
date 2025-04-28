@@ -4,7 +4,7 @@ const OurPartners = () => {
   const ourPartners = [
     { imageUrl: "/images/wealth.svg" },
     { imageUrl: "/images/Notion.svg" },
-    { imageUrl: "/images/medium.svg" },
+    // { imageUrl: "/images/medium.svg" },
     { imageUrl: "/images/braze.svg" },
   ];
 

@@ -12,10 +12,12 @@ const Hero = () => {
         backgroundRepeat: "no-repeat",
         backgroundSize: "100px auto, 100px auto",
       }}
-      data-aos="fade-up"
-      data-aos-duration="1000"
     >
-      <div className="flex flex-col justify-center items-center space-y-[15px]">
+      <div
+        className="flex flex-col justify-center items-center space-y-[15px]"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         <div className="flex flex-col space-y-[8px] max-w-[250px] items-center md:max-w-md md:space-y-[15px]">
           <h2 className="text-2xl text-center md:text-5xl font-bold text-[#00373E] max-w-md">
             Support for Your Mental Well-being

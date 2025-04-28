@@ -64,18 +64,18 @@ const Services = () => {
         <div
           className="bg-white rounded-2xl md:col-span-2"
           style={{
-            backgroundImage: "url('/images/illustration-6.svg')",
-            backgroundSize: "contain",
-            backgroundPosition: "bottom right",
-            backgroundRepeat: "no-repeat",
+            // backgroundImage: "url('/images/illustration-6.svg')",
+            // backgroundSize: "contain",
+            // backgroundPosition: "bottom right",
+            // backgroundRepeat: "no-repeat",
           }}
           data-aos="fade-up"
           data-aos-duration="1500">
           <div className="flex flex-col space-y-6 py-10 px-6">
-            <p className="text-[#00373E] text-[24px] font-bold max-w-xs">
+            <p className="text-[#00373E] text-[24px] font-bold">
               Wellness Coaching
             </p>
-            <p className="text-[#00373E] text-xs md:text-[15px] max-w-[200px] md:max-w-md">
+            <p className="text-[#00373E] text-xs md:text-[15px]">
               Personalized guidance to help you build healthier habits, manage
               stress, and achieve balance in all areas of your life.
               <br /> <br />

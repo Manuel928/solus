@@ -8,18 +8,18 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="relative flex justify-between items-center p-5 md:px-[100px]">
+    <nav className="relative z-50 flex justify-between items-center p-5 md:px-[100px] overflow-visible">
       {/* Left Menu */}
       <ul className="hidden md:flex flex-row gap-8 text-[#00373E]">
-        <a href="#">
-          <li>Home</li>
-        </a>
-        <a href="#about">
-          <li>About</li>
-        </a>
-        <a href="#services">
-          <li>Services</li>
-        </a>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#services">Services</a>
+        </li>
       </ul>
 
       {/* Logo */}
@@ -29,20 +29,20 @@ const Navbar = () => {
 
       {/* Right Menu */}
       <ul className="hidden md:flex flex-row gap-8 text-[#00373E]">
-        <a href="#">
-          <li>Therapists</li>
-        </a>
-        <a href="#explore&learn">
-          <li>Resources</li>
-        </a>
-        <a href="#contact">
-          <li>Contact</li>
-        </a>
+        <li>
+          <a href="#">Therapists</a>
+        </li>
+        <li>
+          <a href="#explore&learn">Resources</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
       </ul>
 
       {/* Hamburger Icon */}
       <div
-        className="md:hidden text-[#00373E] text-3xl cursor-pointer"
+        className="md:hidden text-[#00373E] text-3xl cursor-pointer overflow-visible"
         onClick={toggleMenu}
       >
         &#9776;
@@ -50,26 +50,26 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="absolute top-full left-0 w-full bg-white shadow-md flex flex-col list-none items-center gap-6 py-6 text-[#00373E] font-medium">
-          <a href="#">
-            <li>Home</li>
-          </a>
-          <a href="#">
-            <li>About</li>
-          </a>
-          <a href="#">
-            <li>Services</li>
-          </a>
-          <a href="#">
-            <li>Therapists</li>
-          </a>
-          <a href="#">
-            <li>Resources</li>
-          </a>
-          <a href="#">
-            <li>Contact</li>
-          </a>
-        </div>
+        <ul className="absolute top-full left-0 w-full bg-white shadow-md flex flex-col items-center gap-6 py-6 text-[#00373E] font-medium overflow-visible z-50">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#">Therapists</a>
+          </li>
+          <li>
+            <a href="#explore&learn">Resources</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
       )}
     </nav>
   );
