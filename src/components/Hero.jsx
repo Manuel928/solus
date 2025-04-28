@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="bg-[#F9E6D0] flex justify-between items-center pt-4 mx-[10px] md:mx-[100px] rounded-2xl rounded-bl-2xl md:rounded-4xl">
       <img
-        src="./public/images/illustration_2.svg"
+        src="./images/illustration_2.svg"
         className="w-30 md:w-48 object-bottom-left"
         alt=""
         srcset=""
@@ -25,7 +25,7 @@ const Hero = () => {
         <Button text="Get Started" />
       </div>
       <img
-        src="./public/images/illustration_1.svg"
+        src="./images/illustration_1.svg"
         className="w-30 md:w-48 object-bottom-right"
         alt=""
         srcset=""

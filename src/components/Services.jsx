@@ -16,20 +16,33 @@ const Services = () => {
       <div className="grid md:grid-cols-2 gap-4 md:gap-8 mt-4 md:mt-8 mx-[20px] md:mx-0">
         <div className="flex bg-[#F9E6D0] items-center p-4 md:p-6 rounded-4xl">
           <div className="flex flex-col space-y-5">
-            <p className="text-[#00373E] text-[24px] font-bold max-w-xs">Mindfulness & Meditation</p>
-            <p className="text-[#00373E] text-xs max-w-xs">Guided meditation sessions and stress management techniques</p>
+            <p className="text-[#00373E] text-[24px] font-bold max-w-xs">
+              Mindfulness & Meditation
+            </p>
+            <p className="text-[#00373E] text-xs max-w-xs">
+              Guided meditation sessions and stress management techniques
+            </p>
             <OutlineButton text="Learn More" />
           </div>
           <div>
-            <img src="./public/images/illustration_10.svg" className="w-40" alt="" srcset="" />
+            <img
+              src="./images/illustration_10.svg"
+              className="w-40"
+              alt=""
+              srcset=""
+            />
           </div>
         </div>
 
         {/* 2 */}
         <div className="flex bg-white items-center px-4 py-8 md:p-6 rounded-4xl">
           <div className="flex flex-col space-y-5">
-            <p className="text-[#00373E] text-[24px] font-bold max-w-xs">Mindfulness & Meditation</p>
-            <p className="text-[#00373E] text-xs max-w-xs">Guided meditation sessions and stress management techniques</p>
+            <p className="text-[#00373E] text-[24px] font-bold max-w-xs">
+              Mindfulness & Meditation
+            </p>
+            <p className="text-[#00373E] text-xs max-w-xs">
+              Guided meditation sessions and stress management techniques
+            </p>
             <OutlineButton text="Learn More" />
           </div>
           <div className="w-40">
