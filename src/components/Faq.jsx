@@ -43,7 +43,7 @@ const Faq = () => {
   return (
     <section
       className="flex flex-col mt-[100px] md:mt-16 md:flex-row justify-between items-center gap-[100px] px-[20px] md:px-[100px] py-8 md:py-16 bg-white rounded-4xl shadow-2xl"
-      data-aos="zoom-in-up"
+      data-aos="fade-in-left"
       data-aos-easing="ease-out-cubic"
       data-aos-duration="1500"
     >
@@ -57,7 +57,11 @@ const Faq = () => {
           Find answers to common questions about our services, therapy, and
           mental well-being.
         </p>
-        <img src="./images/Illustration-faq.svg" className="" alt="FAQ Illustration" />
+        <img
+          src="./images/Illustration-faq.svg"
+          className=""
+          alt="FAQ Illustration"
+        />
       </div>
       {/* Right Side */}
       <div className="space-y-4 w-full max-w-xl">
@@ -84,7 +88,11 @@ function FaqItem({ number, questionTitle, accordionBodyText }) {
   return (
     <>
       {/* Faq */}
-      <div className="border border-gray-200 rounded-2xl shadow-sm transition-all self-end">
+      <div
+        className="border border-gray-200 rounded-2xl shadow-sm transition-all self-end"
+        data-aos="flip-left"
+        data-aos-duration="1500"
+      >
         <button
           className="w-full flex items-center justify-between px-6 py-4 text-left focus:outline-none"
           onClick={handleToggle}

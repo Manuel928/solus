@@ -6,6 +6,8 @@ import OurPartners from "./components/OurPartners";
 import ExploreAndLearn from "./components/ExploreAndLearn";
 import Faq from "./components/Faq";
 import JoinCommunity from "./components/JoinCommunity";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -28,6 +30,8 @@ function App() {
       <ExploreAndLearn />
       <JoinCommunity />
       <Faq />
+      <Contact />
+      <Footer />
     </div>
   );
 }
