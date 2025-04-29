@@ -82,7 +82,7 @@ const Services = () => {
               Our wellness coaches support you in creating sustainable routines
               for mental, emotional, and physical well-being.
             </p>
-            <Button text="Learn More" />
+            <Button text="Learn More" size="sm" />
           </div>
         </div>
       </div>

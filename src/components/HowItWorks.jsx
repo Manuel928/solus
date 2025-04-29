@@ -21,7 +21,7 @@ const HowItWorks = () => {
           trusted professionals
         </p>
 
-        <Button text="Find A Therapist" />
+        <Button text="Find A Therapist" size="sm" />
       </div>
 
       {/* Iluustration */}

@@ -28,7 +28,7 @@ const Hero = () => {
           </p>
         </div>
 
-        <Button text="Get Started" />
+        <Button text="Get Started" size="sm" />
       </div>
     </div>
   );

@@ -4,6 +4,8 @@ import HowItWorks from "./components/HowItWorks";
 import Services from "./components/Services";
 import OurPartners from "./components/OurPartners";
 import ExploreAndLearn from "./components/ExploreAndLearn";
+import Faq from "./components/Faq";
+import JoinCommunity from "./components/JoinCommunity";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -24,6 +26,8 @@ function App() {
       <Services />
       <OurPartners />
       <ExploreAndLearn />
+      <JoinCommunity />
+      <Faq />
     </div>
   );
 }
