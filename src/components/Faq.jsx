@@ -48,7 +48,7 @@ const Faq = () => {
       data-aos-duration="1500"
     >
       {/* Left Side */}
-      <div className="flex flex-col max-w-[400px] space-y-4 md:space-y-6 self-start">
+      <div className="flex flex-col max-w-[400px] space-y-4 px-4 md:space-y-6 self-start">
         <p className="text-xs text-[#00373E]">NEED HELP?</p>
         <p className="text-[#00373E] text-[28px] font-bold">
           Frequently Asked Questions

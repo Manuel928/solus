@@ -9,7 +9,7 @@ const JoinCommunity = () => {
       data-aos-easing="ease-out-cubic"
       data-aos-duration="2000"
     >
-      <div className="flex flex-col max-w-[330px] space-y-4 md:space-y-6">
+      <div className="flex flex-col max-w-[330px] space-y-4 py-8 md:space-y-6">
         <p className="text-xs text-[#00373E]">COMMUNITY</p>
         <p className="text-[#00373E] text-[28px] font-bold">
           You're Not Alone on This Journey
@@ -22,7 +22,7 @@ const JoinCommunity = () => {
       </div>
       <img
         src="./images/Illustration-11.svg"
-        className="w-72 md:w-[450px] object-contain"
+        className="w-72 hidden md:block md:w-[450px] object-contain"
         alt="Community Illustration"
       />
     </section>
