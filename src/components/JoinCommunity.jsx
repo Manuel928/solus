@@ -22,7 +22,7 @@ const JoinCommunity = () => {
       </div>
       <img
         src="./images/Illustration-11.svg"
-        className="w-72 hidden md:block md:w-[450px] object-contain"
+        className="w-72 hidden lg:block md:w-[450px] object-contain"
         alt="Community Illustration"
       />
     </section>

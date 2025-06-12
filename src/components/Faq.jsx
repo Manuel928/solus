@@ -42,7 +42,7 @@ const Faq = () => {
 
   return (
     <section
-      className="flex flex-col mt-[100px] md:mt-16 md:flex-row justify-between items-center gap-[100px] px-[20px] md:px-[100px] py-8 md:py-16 bg-white rounded-4xl shadow-2xl"
+      className="flex flex-col mt-[100px] md:mt-16 lg:flex-row justify-between items-center gap-[100px] px-[20px] md:px-[100px] py-8 md:py-16 bg-white rounded-4xl shadow-2xl"
       data-aos="fade-in-left"
       data-aos-easing="ease-out-cubic"
       data-aos-duration="1500"

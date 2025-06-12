@@ -21,7 +21,7 @@ function App() {
     });
   }, []);
   return (
-    <div>
+    <div className="bg-[#F7F6F4]">
       <Navbar />
       <Hero />
       <HowItWorks />

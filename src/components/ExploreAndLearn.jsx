@@ -16,7 +16,7 @@ const ExploreAndLearn = () => {
         Explore expert insights, self-care guides, and tools to support your
         mental health.
       </p>
-      <div className="flex flex-col mt-8 space-y-3 justify-center items-center md:space-y-0 md:space-x-5 md:flex-row">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 mt-8 gap-4 justify-center items-center mx-[20px]">
         <div
           className="shadow-2xl flex flex-col justify-center items-center bg-white py-16 space-y-5 px-8 w-[90%] md:w-full rounded-3xl"
           data-aos="zoom-in-up"
@@ -64,7 +64,7 @@ const ExploreAndLearn = () => {
           data-aos="zoom-in-up"
           data-aos-duration="1500"
         >
-          <p className="text-[#00373E] text-[24px] font-bold max-w-xs">
+          <p className="text-[#00373E] text-center text-[24px] font-bold max-w-xs">
             Webinars & Workshops
           </p>
           <p className="text-sm md:text-[15px] text-center text-[#00373E] max-w-xs">

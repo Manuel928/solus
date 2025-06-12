@@ -8,9 +8,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="relative z-50 flex justify-between items-center p-5 md:px-[100px] overflow-visible">
+    <nav className="bg-[#F7F6F4] relative z-50 flex justify-between items-center p-5 md:mx-[100px] lg:w-[1140px] h-[91px] overflow-visible">
       {/* Left Menu */}
-      <ul className="hidden md:flex flex-row gap-8 text-[#00373E]">
+      <ul className="hidden lg:flex flex-row gap-8 text-[#00373E]">
         <li>
           <a href="#">Home</a>
         </li>
@@ -28,7 +28,7 @@ const Navbar = () => {
       </a>
 
       {/* Right Menu */}
-      <ul className="hidden md:flex flex-row gap-8 text-[#00373E]">
+      <ul className="hidden lg:flex flex-row gap-8 text-[#00373E]">
         <li>
           <a href="#">Therapists</a>
         </li>
@@ -42,7 +42,7 @@ const Navbar = () => {
 
       {/* Hamburger Icon */}
       <div
-        className="md:hidden text-[#00373E] text-3xl cursor-pointer overflow-visible"
+        className="lg:hidden text-[#00373E] text-3xl cursor-pointer overflow-visible"
         onClick={toggleMenu}
       >
         &#9776;
